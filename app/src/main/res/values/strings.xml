@@ -8,6 +8,17 @@
     <string name="tv_calories_placeholder">Meal Calories</string>
     <string name="photo_of_a_meal_CD">photo of a meal</string>
     <string name="tv_web_link">Web Link</string>
+    <string name="tv_add_title">Title:</string>
+    <string name="add_enter_meal_title">Enter Meal Title</string>
+    <string name="add_calories">Calories:</string>
+    <string name="add_enter_ingredients">Enter Ingredients</string>
+    <string name="add_enter_calories">Enter Calories</string>
+    <string name="add_enter_link">Enter Link</string>
+    <string name="add_description">Description</string>
+    <string name="add_enter_a_description">Enter A Description</string>
+    <string name="btn_done_text">DONE</string>
+    <string name="add_web_link">Web Link:</string>
+    <string name="add_ingredients">Ingredients:</string>
 
 
     <string-array name="meal_titles">

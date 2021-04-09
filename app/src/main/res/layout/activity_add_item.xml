@@ -1,111 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AddItemActivity">
 
-    <GridLayout
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:text="@string/tv_add_title"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText_Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center">
+        android:layout_row="0"
+        android:layout_column="1"
+        android:hint="@string/add_enter_meal_title"
+        android:importantForAutofill="no"
+        android:inputType="text" />
 
-        <TextView
-            android:id="@+id/tv_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:layout_column="0"
-            android:text="Title: "
-            android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="@string/add_description"
+        android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/editText_Title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:layout_column="1"
-            android:hint="Enter Meal Title"/>
+    <EditText
+        android:id="@+id/editText_Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:hint="@string/add_enter_a_description"
+        android:importantForAutofill="no"
+        android:inputType="text" />
 
-        <TextView
-            android:id="@+id/tv_description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="1"
-            android:layout_column="0"
-            android:text="Description"
-            android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="@string/add_ingredients"
+        android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/editText_Description"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_row="1"
-            android:layout_column="1"
-            android:hint="Enter A Description" />
+    <EditText
+        android:id="@+id/editText_Ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:hint="@string/add_enter_ingredients"
+        android:inputType="text"
+        android:importantForAutofill="no" />
 
-        <TextView
-            android:id="@+id/tv_ingredients"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="2"
-            android:layout_column="0"
-            android:text="Ingredients: "
-            android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="@string/add_calories"
+        android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/editText_Ingredients"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_row="2"
-            android:layout_column="1"
-            android:hint="Enter Ingredients" />
+    <EditText
+        android:id="@+id/editText_Calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:hint="@string/add_enter_calories"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/tv_weblink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:text="@string/add_web_link"
+        android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/tv_calories"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="3"
-            android:layout_column="0"
-            android:text="Calories: "
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/editText_Calories"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_row="3"
-            android:layout_column="1"
-            android:hint="Enter Calories" />
-        <TextView
-            android:id="@+id/tv_weblink"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="4"
-            android:layout_column="0"
-            android:text="Web Link: "
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/editText_weblink"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_row="4"
-            android:layout_column="1"
-            android:hint="Enter Calories" />
+    <EditText
+        android:id="@+id/editText_weblink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:hint="@string/add_enter_link"
+        android:importantForAutofill="no"
+        android:inputType="text" />
 
 
-        <Button
-            android:id="@+id/doneBTN"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_column="0"
-            android:layout_columnSpan="2"
-            android:layout_row="5"
-            android:hint="DONE" />
+    <Button
+        android:id="@+id/doneBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_row="5"
+        android:hint="@string/btn_done_text" />
 
-    </GridLayout>
-
-
-</LinearLayout>
+</GridLayout>

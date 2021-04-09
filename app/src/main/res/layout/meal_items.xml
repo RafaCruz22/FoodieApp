@@ -49,7 +49,6 @@
             android:layout_height="wrap_content"
             android:text="@string/tv_web_link"
             android:inputType=""
-            android:clickable="true"
             android:padding="10dp"
             style="@style/MealLinkText"
             />
