@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/design_default_color_primary</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+
+    <style name="MealTitle" parent="TextAppearance.AppCompat.Headline">
+    </style>
+    <style name="MealDescriptionTitle" parent="TextAppearance.AppCompat.Subhead">
+
+    </style>
+
+    <style name="MealIngredientsText" parent="TextAppearance.AppCompat.Subhead">
+    </style>
+
+    <style name="MealCaloriesText" parent="TextAppearance.AppCompat.Subhead">
+    </style>
+
+    <style name="MealLinkText" parent="TextAppearance.AppCompat.Subhead">
+    </style>
+
+</resources>
